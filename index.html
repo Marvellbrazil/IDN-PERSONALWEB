@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="icon" type="image/x-icon" href="etsy.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background-color: white;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+            transition: 2s;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 100px 100px;
+            background-color: white;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            margin-top: 10px;
+        }
+
+        .hero a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+                .hero .image img{
+            width: 300px;
+            height: 30vh;
+            border-radius: 100%;
+        }
+
+        .about {
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 100px;
+            background-color: white;
+        }
+
+        .about .text {
+            width: 50%;
+        }
+
+        .about .text h2 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .about .text p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        .about .image {
+            width: 50%;
+        }
+
+        .about .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .experience {
+            padding: 150px 100px;
+            background-color: white;
+        }
+
+        .experience h2 {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .card {
+            width: 350px;
+            height: auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card .image {
+            margin-bottom: 10px;
+            /* Add space below the image */
+        }
+
+        .card img {
+            width: 100px;
+            /* Set width of images */
+            height: auto;
+            /* Maintain aspect ratio */
+            border-radius: 50%;
+            /* Optional: makes images circular */
+        }
+
+        .card h3 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        .wa{
+            padding: 3px;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: Montserrat;
+            display: flex;
+            transition: 1s;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;            
+            border: transparent;
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wa{
+            background-color: rgb(233, 233, 233);
+            text-decoration: none;
+            color: #000;
+        }
+
+        .wa:hover{
+            cursor: pointer;
+            background-color: rgb(40, 40, 40);
+            color: #f5f5f5;
+            transition: 1s;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Marvell.me</div>
+        <nav>
+            <a href="#sect1">About Me</a>
+            <a href="#sect2">My Experience</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="text">
+            <h1>Hai, Selamat datang di <br> <span>Personal Website</span></h1>
+            <a href="https://www.instagram.com/akufaisal._">My Instagram</a>
+        </div>
+        <div class="image">
+            <img src="https://via.placeholder.com/300x300" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section class="about" id="sect1">
+        <div class="image">
+            <img src="https://via.placeholder.com/300x300" alt="Abdurrahman Zaidan">
+        </div>
+        <div class="text">
+            <h2>Halo! namaku <br> <span>Marvello Faisal</span></h2>
+            <p>Aku adalah seorang pelajar SMK yang sedang menempuh pendidikan di sekolah SMK PGRI 3 Malang. Saya sangat suka mengoding, tapi boong (bercanda).
+                Saya ingin menjadi seseorang yang expert di bidang koding.
+                    Semoga kedepannya saya bisa lebih giat lagi dan lebih konsisten terutama fokus dalam mengejar goals-goals saya, doakan saya ya...</p>
+        </div>
+    </section>
+
+    <section class="experience" id="sect2">
+        <h2>My Experience</h2><br><br>
+        <div class="cards">
+            <div class="card">
+                <div class="image">
+                    <img src="https://via.placeholder.com/100" alt="Experience Image(1)">
+                </div>
+                <h3>Siswa <br> SKARIGA</h3>
+                <p>Saya pernah menjadi peserta MPLS, saya belajar banyak dari kegiatan ini, leadership, kepedulian,
+                    kehormatan.</p>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://via.placeholder.com/100" alt="Experience Image(2)">
+                </div>
+                <h3>Peserta IDCamp 2024</h3>
+                <p>Saya pernah menjadi peserta MPLS, saya belajar banyak dari kegiatan ini, leadership, kepedulian,
+                    kehormatan.</p>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://via.placeholder.com/100" alt="Experience Image(3)">
+                </div>
+                <h3>Siswa RPL-A <br>Angkatan '37</h3>
+                <p>Saya pernah menjadi peserta MPLS, saya belajar banyak dari kegiatan ini, leadership, kepedulian,
+                    kehormatan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <a class="wa" href="https://wa.me/6287776810645">Contact me on WhatsApp !</a>
+    </section>
+
+
+    <footer>
+        Copyright © 2024 Zaidan. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
